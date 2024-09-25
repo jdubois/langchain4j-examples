@@ -14,7 +14,7 @@ public class GitHubModelsChatModelExamples {
                     .logRequestsAndResponses(true)
                     .build();
 
-            String response = model.generate("Provide 3 short bullet points explaining why Java is awesome");
+            String response = model.generate("Provide 3 short bullet points explaining why Java is awesome\n");
 
             System.out.println(response);
         }
